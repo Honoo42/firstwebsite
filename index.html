@@ -34,38 +34,45 @@
 	<div class="article">
 			<h3>Article Title</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie metus at felis adipiscing, ac hendrerit neque ullamcorper. Donec placerat posuere purus, vitae bibendum tortor tincidunt et. Nullam molestie nisl libero, vitae feugiat quam rutrum blandit. Praesent tempus convallis metus quis fermentum. Cras vestibulum rhoncus erat pretium aliquet. Ut ornare leo tincidunt gravida facilisis. Ut luctus nulla in odio pretium, a laoreet risus venenatis. Pellentesque congue malesuada elit, eget eleifend sem dignissim in.</p>
-				<p>Nunc erat dolor, placerat in feugiat sed, venenatis eget velit. Nullam aliquet quam ac hendrerit accumsan. Donec congue suscipit fringilla. Proin accumsan accumsan accumsan. <strong>Morbi lacinia massa viverra bibendum pellentesque</strong>. Nunc gravida orci quis lacus suscipit, eu accumsan augue facilisis. Nam condimentum, magna ac bibendum suscipit, purus ipsum vulputate metus, in tempor enim justo ultrices tortor.</p>
+				<p>Nunc erat dolor, placerat in feugiat sed, venenatis eget velit. Nullam aliquet quam ac hendrerit accumsan. Donec congue suscipit fringilla. Proin accumsan accumsan accumsan. <strong>Morbi lacinia massa viverra bibendum pellentesque</strong>. Nunc gravida orci quis lacus suscipit, eu accumsan augue facilisis. <span color:red;>Nam condimentum</span color:red;>, magna ac bibendum suscipit, purus ipsum vulputate metus, in tempor enim justo ultrices tortor.</p>
+			
 			<h4>Section Title</h4>
+			<hr style="width:80%">
 				<p>Nullam convallis sapien nisl, in tempus turpis tristique ac. Aliquam pellentesque, augue ut scelerisque pellentesque, leo augue ullamcorper est, a malesuada mi massa a nibh. Nunc non tincidunt dolor. Phasellus quis cursus libero. Mauris nisl magna, malesuada nec vulputate bibendum, interdum eget tellus.</p>
 				<!-- Insert table here -->
 				<table>
 					<thead>
 						<tr>
-							<th>What</th>
-							<th>Where</th>
-							<th>How</th>
+							<th class="tr"> What</th>
+							<th class="tr"> Where</th>
+							<th class="tr"> How</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td class="tfm">HTML</td>
 							<td class="tdm">Mauris tellus dolor, blandit et lacus ac, tempus commodo nulla. Pellentesque sagittis lectus vitae ipsum dignissim, vitae consectetur enim iaculis. </td>
-							<td class="tlm">GO!</td>
+							<td class="tlm">
+							<div class="button">GO!</div></td>
 						</tr>
 						<tr>
 							<td class="tfm">CSS</td>
 							<td class="tdm">Mauris tellus dolor, blandit et lacus ac, tempus commodo nulla. Pellentesque sagittis lectus vitae ipsum dignissim, vitae consectetur enim iaculis. </td>
-							<td class="tlm">Try!</td>
+							<td class="tlm">
+							<div class="button">Try!</div></td>
 						</tr>
 						<tr>
 							<td class="tfm">JS</td>
 							<td class="tdm">Mauris tellus dolor, blandit et lacus ac, tempus commodo nulla. Pellentesque sagittis lectus vitae ipsum dignissim, vitae consectetur enim iaculis. </td>
-							<td class="tlm">View!</td>
+							<td class="tlm">
+							<div class="button">View!</div></td>
 						</tr>
 					</tbody>
 				</table>
 				<p>Nullam tempor sapien risus. Sed velit lectus, eleifend vitae purus pellentesque, euismod congue sapien. Mauris id accumsan urna. Fusce odio enim, fermentum in arcu posuere, vehicula dapibus risus</p>
+			
 			<h4>Section Title</h4>
+			<hr style="width:80%">
 				<p>Nullam tempor sapien risus. Sed velit lectus, eleifend vitae purus pellentesque, euismod congue sapien. Mauris id accumsan urna. Fusce odio enim, fermentum in arcu posuere, vehicula dapibus risus</p>
 				<!-- box goes here -->
 					<div class="box">
@@ -75,7 +82,9 @@
 					</div>
 				<p>Nullam tempor sapien risus. Sed velit lectus, eleifend vitae purus pellentesque, euismod congue sapien. Mauris id accumsan urna. Fusce odio enim, fermentum in arcu posuere, vehicula dapibus risus</p>
 				<p>Quisque quis imperdiet metus. Aliquam et bibendum tellus. Integer dapibus consequat metus in euismod. Proin tempus id purus eu blandit.</p>
+
 			<h4>Section Title</h4>
+			<hr style="width:80%">
 				<p>Suspendisse ac purus ut enim tincidunt ultrices. Cras pharetra tellus quis malesuada hendrerit. Donec interdum eros justo, vel ullamcorper sapien facilisis a. Donec congue lectus neque, in ultricies eros pretium sit amet. In tristique eu tortor vitae fringilla.</p>
 				<!-- Placeholder Image -->
 				<img class="img" src="http://placehold.it/506x100">
@@ -84,7 +93,20 @@
 					<li><strong>Make Pretty with CSS</strong>:Suspendisse ac purus ut enim tincidunt ultrices. Cras pharetra tellus quis malesuada hendrerit. Donec interdum eros justo, vel ullamcorper sapien facilisis a. Donec congue lectus neque, in ultricies eros pretium sit amet. In tristique eu tortor vitae fringilla.</li>
 					<li><strong>Profit</strong>:Suspendisse ac purus ut enim tincidunt ultrices. Cras pharetra tellus quis malesuada hendrerit. Donec interdum eros justo, vel ullamcorper sapien facilisis a. Donec congue lectus neque, in ultricies eros pretium sit amet. In tristique eu tortor vitae fringilla.</li>
 				</ol>
+
+				<p class="credits">Posted by <strong>Author</strong> under <strong>Web>Dev</strong> on <strong>April 1, 2014</strong></p>
+			<h3>Comments</h3>
+
+				<p class="line"> User Info</p>
+
+
+				<form class="form">
+				Email: <input type="text" name="email"><br>
+				Display Name: <input type="text" name="displayname"><br>
+				Website: <input type="text" name="website">
+				</form>
 		</div>
+
 	
 </body>
 </html>
