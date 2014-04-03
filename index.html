@@ -8,11 +8,9 @@
 </head>
 <div class="wrapper">
 	<body class="body">
-		<div class="title">
-			<header class="header">
-				<h2 class="web"> My Website</h2>
-			</header>
-		</div>
+		<header class="header">
+			<h2 class="web"> My Website</h2>
+		</header>
 	<nav class="menu">
 				<nav class="nav"> Home </nav>
 				<nav class="nav"> All Posts </nav>
@@ -20,13 +18,13 @@
 	</nav>
 		<div class="side">
 			<h4>Recent Posts</h4>
-				<ul>
+				<ul class="sidemenu">
 					<li>Another Post</li>
 					<li>Cool Story</li>
 					<li>Useful Tips and Tricks</li>
 				</ul>
 			<h4>Categories</h4>
-				<ul>
+				<ul class="sidemenu">
 					<li>Web</li>
 					<li>Dev</li>
 					<li>CSS</li>
@@ -98,14 +96,22 @@
 				<p class="credits">Posted by <strong>Author</strong> under <strong>Web>Dev</strong> on <strong>April 1, 2014</strong></p>
 			<h3>Comments</h3>
 
-				<p class="line"> User Info</p>
+				<h5> <span> USER INFO</span></h5>
 
 
-				<form class="form">
+				<form class="userform">
 				Email: <input type="text" name="email"><br>
 				Display Name: <input type="text" name="displayname"><br>
 				Website: <input type="text" name="website">
 				</form>
+
+				<h5><span> COMMENT</span></h5>
+
+				<form>
+					<input type="text" id="text" class="commentbox" maxlength="500" />
+				</form>
+
+			<h5 class="usercomments">SUBMIT</h5>
 		</div>
 
 	

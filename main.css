@@ -1,9 +1,6 @@
 .wrapper {
 	max-width: 1920px;
 }
-.title {
-	margin: auto;
-}
 .body {
 	background-color: #7f8c8d;
 	margin: 4% 0% 0% 0%;
@@ -14,8 +11,8 @@
 	color: #fff;
 	text-align:left;
 	margin: 0% 0% 0% 30%;
-	padding: 5em;
-	width: 30.5%;
+	padding: 4.3%;
+	width: 30.4%;
 	position: relative;
 	
 	
@@ -28,15 +25,20 @@
 .side {
 	position: absolute;
 	background-color: #ecf0f1;
-	font-size: 10px;
+	font-size: 90%;
 	margin: 0% 0% 0% 70%;
+	width: 15%;
+	height: 250px;
+}
+.sidemenu {
+	color: #95a5a6;
 }
 
 .menu {
 	background-color: #34495e;
 	text-align: right;
 	color: #fff;
-	width: 38.85%;
+	width: 38.9%;
 	margin: 0% 0% 0% 30%;
 	padding: 1px;
 	position: relative;
@@ -133,6 +135,33 @@ thead {
     &:before { right: 1.5%; }
     &:after { left: 1.5%; }
 }
-.form {
+h5{
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	line-height: 0.1em;
+	margin: 10px 0 50px;
+	color: #7f8c8d;
+	text-transform: capitalize;
+}
+h5 span {
+	background: #ecf0f1;
+	padding: 0 10px;
+}
+.userform {
 	text-align: center;
 }
+.commentbox{
+	width: 79%;
+	height: 150px;
+	text-align: center;
+	margin: 0% 0% 10% 11%;
+}
+.usercomments {
+	color: #fff;
+	background-color: #c0392b;
+	width: 90%;
+	height: 1.5em;
+	margin: 0% 0% 20% 5%;
+	padding-top: 1.7em;
+}	
